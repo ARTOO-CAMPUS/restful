@@ -12,6 +12,9 @@ $(document).ready(function() {
     $("#buttonSearch").prop('disabled', true);
     $("#formTitle").addClass('has-error');
 
+
+
+
     //VERIFICA SE L'INPUT NON E' VUOTA
     $('#title').keyup(function() {
         if ($(this).val().length != 0) {
@@ -145,7 +148,7 @@ $(document).ready(function() {
         return newActors;
     }
 
-    //FUNZIONE DRAWSTAR 
+    //FUNZIONE DRAWSTAR
     function drawStar(rate) {
         var rating = '';
         rate = Math.floor(rate);
